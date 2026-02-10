@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-section,
+.events-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.event-card {
+  background: #eee;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.empty-state {
+  padding: 15px;
+  background: #ddd;
+  border-radius: 8px;
+}
+
+.demo-section {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.demo-box {
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.output-box {
+  background: #eee;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
